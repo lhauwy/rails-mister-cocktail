@@ -13,12 +13,19 @@ ingredients = [
   "tequila",
   "whiskey",
   "vodka",
+  "cognac",
   "tomato juice",
+  "orange juice",
+  "pineaple juice",
+  "apple juice",
   "coke",
   "lime",
   "gin",
   "tonic",
-  "salt"
+  "salt",
+  "sugar syrup",
+  "sugar",
+  "ice"
 ]
 
 ingredients.each do |i|
