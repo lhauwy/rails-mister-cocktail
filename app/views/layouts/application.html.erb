@@ -12,7 +12,12 @@
 
   <body>
     <div class="navbar-wagon">
-      <h1>MisterCocktail</h1>
+  <!-- Logo -->
+      <%= link_to root_path, class: "navbar-wagon-brand" do %>
+        <%= image_tag "logo.svg", height: 60 %>
+      <% end %>
+  <!-- Main Title -->
+      <div class="main-title">Mister Cocktail</div>
     </div>
     <%= yield %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
