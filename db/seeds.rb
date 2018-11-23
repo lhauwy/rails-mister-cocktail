@@ -3,8 +3,8 @@ Ingredient.destroy_all
 Cocktail.destroy_all
 
 
-mojito   = Cocktail.create(name: 'Mojito')
-gin_fizz = Cocktail.create(name: 'Gin fizz')
+# mojito   = Cocktail.create(name: 'Mojito')
+# gin_fizz = Cocktail.create(name: 'Gin fizz')
 
 sparkling_water = Ingredient.create(name: 'Sparkling water')
 rum             = Ingredient.create(name: 'Rum')
